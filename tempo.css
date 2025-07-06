@@ -1,0 +1,144 @@
+@media screen and (max-width: 800px) {
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", arial;
+}
+
+body {
+    background-image: url(https://i.postimg.cc/TLt43q0W/Background-Inicial.png);
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.interface {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px 25px;
+    margin-top: 40px;
+}
+
+.seta {
+    width: 100%;
+    display: flex;
+    align-items: left;
+}
+
+.seta img {
+    width: 25px;
+}
+
+h1 {
+    font-size: 25px;
+    color: #a21216;
+    margin-top: 10px;
+}
+
+p {
+    color: #a21216;
+    margin-bottom: 20px;
+}
+
+img.logo {
+    border-radius: 50%;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+    gap: 4px;
+
+}
+
+.contador1 {
+    display: flex;
+    gap: 10px;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #a21216;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 0px #a21216;
+}
+
+.contador1 p.doisp {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.anos p{
+    margin: 0;
+}
+.anos span {
+    font-size: 30px;
+    font-weight: 700;
+}
+.meses p{
+    margin: 0;
+}
+.meses span {
+    font-size: 30px;
+    font-weight: 700;
+}
+.dias p{
+    margin: 0;
+}
+.dias span {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+
+.contador2 {
+    display: flex;
+    gap: 10px;
+    font-size: 1.2rem;
+    background-color: #fff;
+    color: #a21216;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 0px #a21216;
+    margin-bottom: 25px;
+}
+
+.contador2 p.doisp {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.horas p{
+    margin: 0;
+}
+.horas span {
+    font-size: 30px;
+    font-weight: 700;
+}
+.minutos p{
+    margin: 0;
+}
+.minutos span {
+    font-size: 30px;
+    font-weight: 700;
+}
+.segundos p{
+    margin: 0;
+}
+.segundos span {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+}

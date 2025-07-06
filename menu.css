@@ -1,0 +1,121 @@
+@media screen and (max-width: 800px) {
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", arial;
+}
+
+body {
+    background-image: url(https://i.postimg.cc/TLt43q0W/Background-Inicial.png);
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.interface {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px 10px;
+    margin-top: 40px;
+}
+
+h1.tittle {
+    font-size: 25px;
+    color: #a21216;
+}
+
+p.tittle {
+    color: #a21216;
+    margin-bottom: 30px;
+}
+
+.cards {
+    margin: 0px 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    text-decoration: none;
+}
+
+.cards a {
+    text-decoration: none;
+    color: #a21216;
+}
+
+.cards .memorias {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 40px;
+    box-shadow: 4px 4px 0px #a21216;
+}
+
+.cards .memorias h1 {
+    font-size: 20px;
+}
+
+.cards .memorias p {
+    font-size: 15px;
+}
+
+.cards .tempo {
+    background-color: #fff;
+    padding: 20px 21px;
+    border-radius: 40px;
+    box-shadow: 4px 4px 0px #a21216;
+}
+
+.cards .tempo h1 {
+    font-size: 20px;
+}
+
+.cards .tempo p {
+    font-size: 15px;
+}
+
+.cards .motivos {
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 40px;
+    box-shadow: 4px 4px 0px #a21216;
+}
+
+.cards .motivos h1 {
+    font-size: 20px;
+}
+
+.cards .motivos p {
+    font-size: 15px;
+}
+
+.cards .carta {
+    background-color: #fff;
+    padding: 20px 21px;
+    border-radius: 40px;
+    box-shadow: 4px 4px 0px #a21216;
+}
+
+.cards .carta h1 {
+    font-size: 20px;
+}
+
+.cards .carta p {
+    font-size: 15px;
+}
+
+footer p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #a21216;
+    font-weight: 500;
+}
+
+}

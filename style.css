@@ -1,0 +1,93 @@
+@media screen and (max-width: 800px) {
+/*ESTILIZAÇÃO GERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", arial;
+}
+
+body {
+    background-image: url(https://i.postimg.cc/TLt43q0W/Background-Inicial.png);
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.interface {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    text-align: center;
+}
+/*ESTILIZAÇÃO GERAL*/
+
+/*ESTILIZAÇÃO FRONTAL*/
+img.logo {
+    width: 280px;
+}
+
+p {
+    margin: 30px;
+    font-size: 14px;
+    color: #a21216;
+    font-weight: 400;
+}
+
+p span {
+    font-weight: 600;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border: 2.1px solid #a21216;
+    padding: 5px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+
+}
+
+input[type=password], input[type=text] {
+    width: 100%;
+    padding: 0px 10px;
+    background: none;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-weight: 600;
+    color: #a21216;
+}
+
+.input button.toggle-btn{
+    display: flex;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.input button.toggle-btn img {
+    width: 20px;
+    height: 20px;
+}
+
+button.confirmar {
+    background-color: #a21216;
+    color: #fff;
+    padding: 7px 20px;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    border-radius: 10px;
+}
+/*ESTILIZAÇÃO FRONTAL*/
+
+}
